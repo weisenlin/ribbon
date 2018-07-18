@@ -1,0 +1,8 @@
+spring cloud通过 Eureka作为一个注册中心   Eureka不需要像zookeeper一样在本机服务器上安装，
+可以通过spring boot新建一个项目，项目即为spring cloud的注册中心
+    demo 网址：  服务的注册与发现   https://blog.csdn.net/forezp/article/details/69696915
+                1.服务注册中心环境搭建
+                2.向服务注册中心注册服务
+                3.消费服务
+                服务的消费:  https://blog.csdn.net/forezp/article/details/69788938
+在它的pom.xml文件分别引入起步依赖spring-cloud-starter-eureka、spring-cloud-starter-ribbon、spring-boot-starter-web
